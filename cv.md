@@ -36,5 +36,5 @@ Bachelor of Humanities (Oriental Philology).**
 ## **Languages:**
 
 **Russian:** Native <br>
-**Georgian:** As native <br>
-**English:** B2 (Upper Intermadiate) <br>
+**Georgian:** As Native <br>
+**English:** B2 (Upper Intermediate) <br>
