@@ -11,9 +11,26 @@
       <title>Helen Zdibel CV</title>
    </head>
    <body>
-      <div class="main">
+
+      <header class="header">
+         <div class="container">
+             <nav class="nav">
+                 <ul class="nav-list">
+                     
+                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                     <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                     <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                     <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                     <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                 </ul>
+             </nav>
+         </div>
+     </header>
+      <main class="main">
          <div class="container">
             <h1>Helen Zdibel</h1>
+            <p>I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive toward. I'm not comfortable with settling, and I'm always looking for an opportunity to do better and achieve greatness. </p>
             <hr>
             <h2 id="contacts">Contacts</h2>
             <p><b>Phone:</b> +995598230497</p>
@@ -28,8 +45,26 @@
                <li>CSS</li>
                <li>JavaScript</li>
             </ul>
+            <hr><h2 id="projects">Projects</h2>
+            <ul>
+               <li><a target="_blank" href="https://helenzdibel.github.io/rsschool-cv/cv"> Helen Zdibel-CV</a></li>
+               
+            </ul>
             <hr>
-            <h2 id="education"><strong>Education:</strong><a class="anchorjs-link " href="#education" aria-label="Anchor"  style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+            <h2 id="code">Code Example</h2>
+               <pre>function maskify(cc) {
+                  let hashed = "";
+                  if (cc.length > 4){
+                    for (let i = 0; i < cc.length - 4; i++){
+                      hashed += "#"
+                    }
+                     hashed += cc.slice(-4)
+                  } else {
+                    hashed = cc
+                  }
+                  return hashed;
+                }</pre> 
+            <h2 id="education"><strong>Education</strong><a class="anchorjs-link " href="#education" aria-label="Anchor"  style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
             <p><em>2007-2009</em> <strong>Tbilisi Institute of Asia and Africa, Master’s Academic
                Degree of Social Sciences with a Major in International Relations.</strong>
             </p>
@@ -44,14 +79,14 @@
             </p>
             <hr>
          </div>
-      </div>
+      </main>
       <footer>
          <div class="footer-logos">
          <div class="footer-div">
             <a href="http://github.com/helenzdibel" target="_blank">
             <img  class="footer-logo" src="images/GitHub-Mark.png" alt="github_logo">
             </a>
-            <h2>2022</h2>
+            <h2> April 2022</h2>
             <a href="https://app.rs.school/" target="_blank">
             <img  class="footer-logo" src="images/logo-rs.svg" alt="rs_school_logo">
             </a>
